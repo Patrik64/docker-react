@@ -1,0 +1,7 @@
+winpty docker run -it -p 3000:3000 -v /app/node_modules -v "/$(PWD)":/app CONTAINER_ID
+
+docker run -p 3000:3000 -v $(pwd):/app CONTAINER_ID
+
+#prod build
+docker build .
+docker run -p 8080:80 CONTAINER_ID
