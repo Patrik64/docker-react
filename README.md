@@ -7,6 +7,7 @@ for development mode:
 `http://localhost:3000`
 
 for production mode:
+
 `docker build .`
 
 (take the CONTAINER_ID from above line) and 
