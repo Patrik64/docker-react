@@ -1,12 +1,12 @@
 # docker-react
 
-for development mode:
+_for development mode:_
 
 `docker-compose up -d`
 
 `http://localhost:3000`
 
-for production mode:
+_for production mode:_
 
 `docker build -t dockerreact .`
 
