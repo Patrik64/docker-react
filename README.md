@@ -8,10 +8,8 @@ for development mode:
 
 for production mode:
 
-`docker build .`
+`docker build -t dockerreact .`
 
-(take the CONTAINER_ID from above line) and 
-
-`docker run -p 8080:80 CONTAINER_ID`
+`docker run -p 8080:80 dockerreact`
 
 `http://localhost:8080`
