@@ -4,6 +4,10 @@ __for development mode:__
 
 `docker-compose up -d`
 
+in case you already have an image:
+
+docker-compose up --build
+
 `http://localhost:3000`
 
 __for production mode:__
